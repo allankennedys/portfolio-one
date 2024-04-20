@@ -1,0 +1,185 @@
+*{
+    background-color: #F5F5F5;
+    ;
+    margin: 0;
+    padding: 0;
+    font-family: Raleway;
+    
+}
+body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 1136px;
+    justify-content: space-between;
+   margin: auto;
+}
+
+.navbar{
+    list-style-type: none;
+    display: flex;
+    position: fixed;
+    justify-content: space-around;
+    gap: 5rem;
+    height: 4rem;
+    align-items: center;
+    font-size: 11pt;
+    color: #464646;
+    width: 100%;
+    
+}
+.navbar li:first-child{
+  margin-right: 10rem;
+  margin-left: 5rem;
+}
+.navbar li:last-child{
+    font-weight: bold;
+}
+
+.container_cabecallho{
+    display: flex;
+    flex-direction: row;
+    justify-content:  center;
+    margin-top: 5rem;
+   
+}
+
+
+.imagem img{
+    max-width: 300px;
+    
+    
+}
+.titulos_cabecalho{
+    max-width: 60%;
+    color: #464646;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+
+}
+h1{
+    font-size: 52px;
+    font-weight: 700;
+}
+h3{
+    font-size: 22px;
+    font-weight: 400;
+}
+h2{
+    font-size: 32px;
+    color: #464646;
+}
+
+p{
+    font-size: 16px;
+    color: #464646;
+}
+
+
+.lista_redes {
+    list-style-type: none;
+    display: flex;
+    gap: 32px;
+    align-items: center; /* Centraliza os itens verticalmente */
+}
+
+.lista_redes li {
+    display: flex;
+    align-items: center;
+}
+
+.lista_redes li img {
+    margin-right: 5px;
+    width: 25px;
+}
+
+.container_main{
+   
+width: 982px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: auto;
+height: 350px;
+    
+    
+}
+.container_main p{
+    margin-top: 4rem;
+}
+
+.container_skills{
+   
+    width: 950px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: fit-content;
+    flex-direction: column;
+}
+.container_skills ul{
+  display: flex;
+  list-style-type: none;
+  gap: 4.5rem;
+  margin-top: 2rem;
+}
+
+.container_skills ul li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container_hobbies{
+    width: 950px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: fit-content;
+    flex-direction: column;
+    margin-top: 4rem;
+}
+
+.hobbies_list{
+    display: flex;
+    list-style-type: none;
+    gap: 7.5rem;
+    margin-top: 2rem;
+    
+}
+.hobbies_list li{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+   
+}
+
+.container_formacao{
+    width: 950px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: fit-content;
+    flex-direction: column;
+    margin-top: 4rem;
+}
+
+.formacao_list{
+    display: flex;
+    list-style-type: none;
+    gap: 10rem;
+    margin-top: 2rem;
+    
+}
+.formacao_list li{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
